@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inmobiliaria</title>
+</head>
+<body>
+
+<form>
+
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" maxlength="25"><br><br>
+
+    <label>Apellido:</label><br>
+    <input type="text" name="apellido" maxlength="25"><br><br>
+
+    <label>Dirección:</label><br>
+    <textarea name="direccion" rows="3" cols="30" maxlength="30"></textarea><br><br>
+
+    <label>Teléfono:</label><br>
+    <input type="text" name="telefono" maxlength="15" value="0299"><br><br>
+
+    <label>Operación:</label><br>
+    <input type="radio" name="operacion" value="Alquiler"> Alquiler<br>
+    <input type="radio" name="operacion" value="Compra" checked> Compra<br><br>
+
+    <label>Zonas:</label><br>
+    <input type="checkbox" name="zona" value="Centro" checked> Zona Centro<br>
+    <input type="checkbox" name="zona" value="Norte"> Zona Norte<br>
+    <input type="checkbox" name="zona" value="Sur" checked> Zona Sur<br><br>
+
+    <label>Comentario del inmueble que busca:</label><br>
+    <textarea name="comentario" rows="5" cols="30"></textarea><br><br>
+
+    <input type="reset" value="Limpiar">
+    <input type="submit" value="Enviar">
+
+</form>
+
+</body>
+</html>
