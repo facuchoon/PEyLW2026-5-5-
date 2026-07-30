@@ -1,0 +1,10 @@
+Ejercicio 5 - Respuesta
+
+¿Cuál de los dos archivos le llevó más tiempo?
+El archivo sin CSS (GlobalizacionEj4_sinCSS.html) llevó más tiempo, porque el
+cambio de itálica a negrita hubo que aplicarlo etiqueta por etiqueta (<i> por
+<b>) en cada uno de los párrafos afectados. En el archivo con CSS
+(GlobalizacionEj4_conCSS.html) el cambio se hizo una sola vez, modificando la
+propiedad "font-style" por "font-weight" dentro de las clases .parrafoPar y
+.parrafoImpar en el bloque <style>, y el efecto se aplicó automáticamente a
+todos los párrafos correspondientes.

@@ -1,0 +1,16 @@
+Ejercicio 3 - Respuestas
+
+¿En cual de los archivos resultó más fácil el cambio?
+En el archivo con CSS (conCSS) me resultó más fácil, porque los colores
+estaban centralizados en unos pocos atributos "style" sobre las etiquetas
+(h1, h2, p). En el archivo sin CSS, al usar <font color="..."> en
+cada bloque de texto, tenia que localizar y modificar cada etiqueta <font> por
+separado.
+
+¿Le parece que la diferencia podría ser notoria en archivos complejos o sitios grandes?
+Sí. En sitios grandes con muchas páginas y muchas repeticiones de texto, usar
+solo las etiquetas HTML (<font>) obligaría a modificar el color en cada una de las
+etiquetas de cada página, seria dificil y facil de equivocarse. Usando CSS
+(sobre todo si estuviera en un archivo externo compartido, como se hace en el
+Ejercicio 6), el cambio se podría hacer en un solo lugar y aplicarse
+automáticamente a todo el sitio.
